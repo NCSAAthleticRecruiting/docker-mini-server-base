@@ -1,5 +1,5 @@
 # docker build -t kalabox/mariadb .
-FROM kricker/mysql-base:latest
+FROM drupalateam/ncsa-mysql-base:latest
 
 RUN \
   apk add -U apache2 php-apache2 php-mysqli php-zip php-zlib php-bz2 php-ctype php-gd php-mcrypt php-json && \
